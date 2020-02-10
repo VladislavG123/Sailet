@@ -216,3 +216,66 @@ h3 {
     width: 1190px;
     margin: 0 auto;
 }
+
+
+
+
+#more-projects{
+    width: 100%;
+    height: 240px;
+    background: #383838;
+}
+
+#more-projects-container{
+    width: 1190px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#more-projects-container h3{
+    width: 240px;
+}
+
+button{
+    width: 185px;
+    height: 60px;
+    background: #03a9f4;
+    font-size: 16px;
+    border: 0;
+    color: white;
+    transition: 1s;
+}
+
+button:hover{
+    transition: 1s;
+    background: #049ee6;
+}
+
+#services{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+#services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.service-item h2{
+    text-align: right;
+}
+
+.service-item h2, .service-item h3{ 
+    width: 48%;
+}
