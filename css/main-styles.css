@@ -217,13 +217,38 @@ h3 {
     margin: 0 auto;
 }
 
-
-
-
 #more-projects{
     width: 100%;
     height: 240px;
     background: #383838;
+}
+
+.project-item{
+    display: flex;
+    justify-content: center;   
+    flex-direction: row;
+    align-items: center;
+    height: 480px;
+}
+
+
+.project-title{
+    text-align: right;
+    width: 500px;
+}
+
+.project-item:nth-child(2n){  
+    flex-direction: row-reverse;
+}
+
+
+.project-item:nth-child(2n) .project-title{
+    text-align: left;
+}
+
+
+.project-item img{
+    width: 590px;
 }
 
 #more-projects-container{
@@ -238,6 +263,7 @@ h3 {
 #more-projects-container h3{
     width: 240px;
 }
+
 
 button{
     width: 185px;
