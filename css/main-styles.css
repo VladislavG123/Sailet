@@ -1,3 +1,10 @@
+:root {
+    --main-color: #009bff;
+    --text-color: #282828;
+    --gray-color: #383838;
+    --content-width: 1190px;
+}
+
 @font-face {
     font-family: 'GothamBold';
     src: url("../fonts/GothaProBol.otf") format("opentype");
@@ -26,7 +33,7 @@ h2 {
 }
 
 #wrapper {
-    width: 1190px;
+    width: var(--content-width);
 }
 
 header {
@@ -39,7 +46,7 @@ header {
 }
 
 #header-container {
-    width: 1190px;
+    width: var(--content-width);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -81,7 +88,7 @@ header {
 
 .animate-line {
     margin-top: 15px;
-    background: #009bff;
+    background: var(--main-color);
     width: 0px;
     height: 3px;
     transition: .5s;
@@ -97,7 +104,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 1190px;
+    width: var(--content-width);
     margin: 0 auto;
 }
 
@@ -144,7 +151,7 @@ h3 {
 .line {
     width: 80%;
     height: 6px;
-    background: #019aff;
+    background: var(--main-color);
 }
 
 .about-item {
@@ -167,7 +174,7 @@ h3 {
 }
 
 #about {
-    background: #383838;
+    background: var(--gray-color);
     height: 296px;
     display: flex;
     justify-content: center;
@@ -175,7 +182,7 @@ h3 {
 
 #about-container {
     height: 296px;
-    width: 1190px;
+    width: var(--content-width);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -213,14 +220,14 @@ h3 {
 }
 
 #projects {
-    width: 1190px;
+    width: var(--content-width);
     margin: 0 auto;
 }
 
 #more-projects {
     width: 100%;
     height: 240px;
-    background: #383838;
+    background: var(--gray-color);
 }
 
 .project-item {
@@ -229,7 +236,7 @@ h3 {
     flex-direction: row;
     align-items: center;
     height: 480px;
-    width: 1095;
+    width: 1095px;
 }
 
 .project-title {
@@ -254,7 +261,7 @@ h3 {
 }
 
 #more-projects-container {
-    width: 1190px;
+    width: var(--content-width);
     height: 240px;
     margin: 0 auto;
     display: flex;
@@ -269,7 +276,7 @@ h3 {
 button {
     width: 185px;
     height: 60px;
-    background: #03a9f4;
+    background: var(--main-color);
     font-size: 16px;
     border: 0;
     color: white;
@@ -282,7 +289,7 @@ button:hover {
 }
 
 #services {
-    width: 1190px;
+    width: var(--content-width);
     margin: 0 auto;
 }
 
@@ -310,12 +317,12 @@ button:hover {
 
 footer {
     margin-top: 50px;
-    background: #383838;
+    background: var(--gray-color);
 }
 
 #footer-container {
     padding: 25px 0;
-    width: 1190px;
+    width: var(--content-width);
     margin: 0 auto;
 }
 
