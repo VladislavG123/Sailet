@@ -334,7 +334,7 @@ footer {
     justify-content: space-around;
 }
 
-#footer-container form input, #footer-container form textarea{
+#footer-container form input, #footer-container form textarea {
     background: transparent;
     border: 0;
     border-bottom: 1px solid white;
@@ -346,19 +346,19 @@ footer {
     line-height: 1.33;
 }
 
-#footer-container form input{
+#footer-container form input {
     height: 60px;
 }
 
-#footer-container form textarea{
+#footer-container form textarea {
     height: 102px;
 }
 
-#form-button{
+#form-button {
     margin: 0 auto;
 }
 
-#footer-info{
+#footer-info {
     margin-top: 50px;
     width: 100%;
     display: flex;
